@@ -1,7 +1,7 @@
 ```
-# Jupyter notebooks
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-*.ipynb~
+*/.ipynb_checkpoints/*
 
 # Python
 __pycache__/
@@ -9,19 +9,21 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-env/
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
 venv/
 .venv/
-.ENV
-.env
-*.env
-.env.local
-.coverage
-.coverage.*
-.cache
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+env/
+.env/
+
+# Dependencies
+node_modules/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Logs
 *.log
@@ -34,4 +36,39 @@ venv/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*~
 ```

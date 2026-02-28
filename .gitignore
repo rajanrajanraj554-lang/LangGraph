@@ -1,0 +1,37 @@
+```
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.env
+*.env
+.env.local
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
